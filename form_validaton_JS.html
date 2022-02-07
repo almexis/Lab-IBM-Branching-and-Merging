@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Validation JavaScript</title>
+        <script src = "form_validation.js" type="application/javascript"></script>
+    </head>
+    <body>
+        <h2>Enter your contact details</h2>
+        <form id="form1" onsubmit = "return checkdata()">
+            <label for = "name">Name ; </label>
+            <input type = "text" id="name" name= "name">
+            <br>
+            <br>
+            <label for = "email">E-mail: </label>
+            <input type = "email" id = "email" name = "email">
+            <br>
+            <br>
+            <label for = "zipcode"> Zip: </label>
+            <input type = "number" id = "zipcode" name = "zipcode">
+            <br>
+            <br>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Reset">
+
+        </form>
+    </body>
+
+</html>
